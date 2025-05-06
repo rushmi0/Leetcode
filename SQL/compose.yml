@@ -22,4 +22,5 @@ services:
       timeout: 10s
     networks:
       - dev_network
-
+    ports:
+      - "5432:5432"
